@@ -65,7 +65,7 @@ input, button, textarea {
 }
 
 #app #morseOutput .combo {
-  width:100%;
+  width: 80%;
   display: block;
   border-bottom: 1px solid #333;
 }
