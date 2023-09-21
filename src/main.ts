@@ -20,7 +20,7 @@ const bindMorseInputChanges = (inputEvent: any) => {
 const renderMorseOutput = () => {
   const renderCode = (code: string | undefined): string =>
     code ? `<div class="code">${code}</div>`
-    : `<div class="code">&nbsp;</div>`
+    : `<div class="code empty">&nbsp;</div>`
 
   const outputHTML: string | undefined = window.morseOutput?.map (pair => {
     const [char, code] = [pair?.[0] || '', pair?.[1]];
