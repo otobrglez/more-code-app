@@ -1,6 +1,6 @@
 # Morse Code App
 
-A very simple web application that can be used for learning [Morse code][morse-code].
+A straightforward web application that can be used for learning [Morse code][morse-code].
 
 ## Development
 
@@ -14,3 +14,5 @@ yarn run preview  # after build use preview to see the build
 ## Author
 
 - [Oto Brglez](https://github.com/otobrglez)
+
+[morse-code]: https://en.wikipedia.org/wiki/Morse_code
